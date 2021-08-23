@@ -1,0 +1,13 @@
+{
+    "type": "oracle",
+    "host": "10.299.299.99",
+    "port": 1521,
+    "username": "user",
+    "password": "pass",
+    "database": "databasename",
+    "connectString" : "10.299.299.99:1521/databasename",
+    "logging": false,
+    "entities": [
+       "src/app/models/*.ts"
+    ]
+ }
